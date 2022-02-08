@@ -5,6 +5,7 @@
 #include <typeinfo>
 using namespace std;
 
+class subject;
 class Observer
 {
 	friend class subject;

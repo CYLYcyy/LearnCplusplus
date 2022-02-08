@@ -139,12 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="excercise.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="test2.cpp" />
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="test3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="blackBox.h" />
+    <ClInclude Include="exercise.h" />
     <ClInclude Include="test1.h" />
     <ClInclude Include="test2.h" />
     <ClInclude Include="test3.h" />

@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\leetcode">
+      <UniqueIdentifier>{03d1c9b2-e04b-4e24-9ed3-1de36e3a07f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\leetcode">
+      <UniqueIdentifier>{6416f6b3-0e6b-4645-a6fa-8338ce53e84e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test2.cpp">
@@ -27,6 +33,9 @@
     <ClCompile Include="test3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="excercise.cpp">
+      <Filter>源文件\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test1.h">
@@ -37,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="test3.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="blackBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exercise.h">
+      <Filter>头文件\leetcode</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
