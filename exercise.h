@@ -147,7 +147,7 @@ public:
 * link:https://leetcode-cn.com/problems/search-suggestions-system
 */
 
-class Solution {
+class Solution1268 {
 public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
         vector<vector<string>> ans;
@@ -240,7 +240,7 @@ public:
 * 2 <= n <= 58
 * Link:https://leetcode-cn.com/problems/integer-break/
 */
-class Solution {
+class Solution343 {
 public:
     int integerBreak(int n) {
         int ans = 1;
