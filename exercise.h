@@ -285,3 +285,31 @@ public:
         return ans;
     }
 };
+
+/*
+* Question:
+* 给定一个整数数组 A，坡是元组 (i, j)，其中  i < j 且 A[i] <= A[j]。这样的坡的宽度为 j - i。
+* 找出 A 中的坡的最大宽度，如果不存在，返回 0 。
+* Link:https://leetcode.cn/problems/maximum-width-ramp/description/
+*/
+
+class Solution962 {
+public:
+    int maxWidthRamp(vector<int>& nums) {
+        int size = nums.size();
+        int len = size;
+        for (int i = 0; i < size - 1; ++i)
+        {
+            --len;//移动窗口初始长度
+            for (int j = 0; j + len < size; ++j)
+            {
+                if (nums[j] <= nums[j + len])
+                {
+                    return len;
+                }
+            }
+        }
+        return 0;
+    }
+};
+void t962();

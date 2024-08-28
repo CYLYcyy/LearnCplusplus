@@ -23,3 +23,10 @@ void t1979()
         std::cout << x << endl;
     }
 }
+
+void t962()
+{
+    Solution962 s;
+    vector<int> v = { 9,8,1,0,1,9,4,0,4,1 };
+    cout << s.maxWidthRamp(v);
+}

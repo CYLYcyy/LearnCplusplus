@@ -62,19 +62,5 @@ private:
 
 int main()
 {
-	maxStack s;
-	s.push(2);
-	s.push(3);
-	s.push(3);
-	std::cout << s.getMax() << endl;
-	s.push(5);
-	std::cout << s.getMax() << endl;
-
-	s.pop();
-	std::cout << s.getMax() << endl;
-	s.pop();
-	std::cout << s.getMax() << endl;
-	s.pop();
-	std::cout << s.getMax() << endl;
-	s.pop();
+	t962();
 }
